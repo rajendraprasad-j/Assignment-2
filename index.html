@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>A quote a day</title>
+</head>
+<body>
+<div align="center">
+  <h1  id="quote"></h1>
+</div>
+
+<script>
+var quoteArray=[
+  "Power is like being a lady... if you have to tell people you are, you aren't. Mar",
+  "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.",
+  "Sometimes life hits you in the head with a brick. Don't lose faith.",
+  "You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something - your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life ",
+  "Be a yardstick of quality. Some people aren't used to an environment where excellence is expected.",
+  "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.",
+  "Sometimes life hits you in the head with a brick. Don't lose faith."
+   ];
+
+          var day=new Date();
+          document.getElementById('quote').innerHTML=quoteArray[day.getDay()];
+
+</script>
+
+</body>
+</html>

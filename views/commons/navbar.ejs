@@ -1,0 +1,23 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li <%if (title == "Home") { %>
+          class="active"
+        <% } %>
+        ><a href="/">I love my city</a></li>
+      <li <%if (title == "Delhi") { %>
+          class="active"
+        <% } %>><a href="/Delhi">Delhi</a></li>
+      <li
+        <%if (title == "Mumbai") { %>
+            class="active"
+          <% } %>
+        ><a href="/Mumbai">Mumbai</a></li>
+      <li
+        <%if (title == "Chennai") { %>
+            class="active"
+          <% } %>
+          ><a href="/Chennai">Chennai</a></li>
+    </ul>
+  </div>
+</nav>

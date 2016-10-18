@@ -1,0 +1,17 @@
+<html>
+<head>
+   <% include commons/header.ejs %>
+</head>
+<body>
+  <% include commons/navbar.ejs %>
+</br></br>
+</br>
+</br>
+
+  <h1 align="center"><%=title%>:<%=headline%></h1>
+  <% for(var i=0; i<Images.length; i++) {%>
+    <img src="/images/<%=Images[i]%>" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+   <% } %>
+  <% include commons/jsincludes.ejs %>
+</body>
+</html>
